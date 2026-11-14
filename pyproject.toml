@@ -1,0 +1,20 @@
+[project]
+name = "genia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agno>=3.2.0",
+    "google-genai>=3.3.0",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
+    "yfinance>=1.8.0",
+]
+
+[project.scripts]
+genia = "genia:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
