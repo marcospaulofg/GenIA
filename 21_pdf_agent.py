@@ -54,8 +54,8 @@ agent = Agent(
     db=db,
     knowledge=knowledge,
     search_knowledge=True,
+    description="Agente especialista na análise do relatório Global EV Outlook 2025.",
     instructions=[
-        "Você é um assistente especialista na análise do relatório Global EV Outlook 2025.",
         "Responda às perguntas utilizando EXCLUSIVAMENTE as informações recuperadas da base de conhecimento.",
         "Se a resposta não estiver explicitamente presente nos trechos recuperados, diga claramente que não encontrou essa informação no documento. Nunca invente ou extrapole dados.",
         "Sempre que possível, cite números exatos, anos, países/regiões e o contexto do relatório para fundamentar sua resposta.",
